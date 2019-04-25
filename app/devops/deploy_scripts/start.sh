@@ -13,6 +13,7 @@ cd node_app
 
 npm install
 tsc
+cd pm2/prod
 pm2 startOrGracefulReload russj.pm2.config.js
 pm2 startOrGracefulReload russj_backup.pm2.config.js
 
